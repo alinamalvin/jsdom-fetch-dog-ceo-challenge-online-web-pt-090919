@@ -1,6 +1,6 @@
 console.log('%c HI', 'color: firebrick')
 
-fetch('https://anapioficeandfire.com/api/books')
+fetch('https://dog.ceo/api/breeds/image/random/4')
   .then(resp => resp.json())
   .then(json => renderBooks(json));
 
